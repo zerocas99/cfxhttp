@@ -1,0 +1,16 @@
+{
+  "name": "cfxhttp",
+  "version": "1.0.0",
+  "author": "nobody",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-pool-workers": "^0.5.36",
+    "vitest": "2.0.5",
+    "wrangler": "^3.95.0"
+  }
+}

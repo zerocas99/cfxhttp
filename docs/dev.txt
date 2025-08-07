@@ -1,0 +1,2 @@
+# update all npm packages
+pnpm update --save
